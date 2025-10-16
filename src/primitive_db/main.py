@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-from .engine import welcome
+from .engine import run
 
-def main() -> int:
-    return welcome()
+def main():
+    run()
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()
