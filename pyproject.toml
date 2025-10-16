@@ -8,6 +8,7 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "prompt (>=0.4.1,<0.5.0)"
 ]
 
 
@@ -23,3 +24,7 @@ packages = [
 [tool.poetry.scripts]
 project = "src.primitive_db.main:main" 
  
+[dependency-groups]
+dev = [
+    "ruff (>=0.14.0,<0.15.0)"
+]
